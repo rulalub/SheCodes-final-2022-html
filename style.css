@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(109.6deg,
+            rgb(0, 0, 0) 11.2%,
+            rgb(11, 132, 145) 91.1%);
+    min-height: 100vh;
+    background-color: black;
+}
+
+h1,
+h2,
+
+p {
+    color: #05282c;
+}
+
+.weather-forcast{
+    margin-top: 20px;
+    text-align: center;
+}
