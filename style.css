@@ -20,4 +20,11 @@ p {
 .weather-forcast-date{
     font-size: 16px;
     color: #05282c;
+    opacity: 0.6;
+}
+
+.weather-forcast-temperature-min{
+
+    font-size: 13px;
+    opacity: 0.6;
 }
