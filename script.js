@@ -28,6 +28,7 @@ alt="cloudy" width="40px" />
 
 forecastElement= innerHTML ="Forecast"; '
 <div class="row">
+let days = [" Tue","Wed","Thur","Fri","Sat","Sun"];
 
 <div class="col-md-2">
   <div class="weather-forcast-date">Tue</div>
@@ -114,6 +115,7 @@ alt="cloudy" width="40px" />
 </div> 
 </div>';
 
-
+forecastHTML = forecastHTML + '</div>';
+forecastElement.innerHTML = forecastHTML;
 
 
