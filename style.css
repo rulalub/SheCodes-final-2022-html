@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(109.6deg,
-            rgb(0, 0, 0) 11.2%,
-            rgb(11, 132, 145) 91.1%);
+            rgb(180, 221, 147) 11.2%,
+            rgb(211, 217, 218) 91.1%);
     min-height: 100vh;
     background-color: black;
 }
@@ -27,4 +27,62 @@ p {
 
     font-size: 13px;
     opacity: 0.6;
+}
+
+
+form {
+    position: relative;
+}
+
+form.search-icon {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    color: #9ca3af;
+}
+
+.current-location-icon {
+    color: white;
+}
+
+.current-weather-icon {
+    max-width: 100%;
+}
+
+.forecast-icons {
+    width: 65%;
+    padding-top: 0.3rem;
+
+ul{
+    margin:0;
+    padding: 0;
+}
+li{
+
+list-style: none;
+
+}
+
+.city {
+    border: solid rgba(162, 168, 211, 0.5);
+    border-radius: 10px;
+    width: 40%;
+    color: #38598b;
+    padding: 3px 13px;
+    margin-left: 20px;
+}
+
+.search {
+    background-color: rgba(162, 168, 211, 0.5);
+    color: #38598b;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.search:hover {
+    background-color: #38598b;
+    border: none;
+    color: rgb(162, 168, 211)
 }
