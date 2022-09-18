@@ -20,15 +20,40 @@
 <br />
 <div class="container">
 <div class="weather-container">
-    <form id="search-form">
+    <form  class="search-form" id="search-form">
         <div class=" row a-3"></div>
+        <div class="col-7">
         </form>
-        <div class="overview">
+
+        <input type="search" placeholder="Enter the city" autofocus="on" id="city-input" />
+
+        </div>
+
+        <div class="col-4">
+        <input type="submit" value="Search" class="btn btn-primary" /> 
+    </div>
+
+<div class="col-1">
+    <button class="btn btn-xx w-90" id="current-location-button">
+        <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+    </button>
+</div>
+</form>
+<h1 id="city">
+
+    </h1>
+    <div class="weather-description">
+        <div class="sunny" id="description">
+            <strong> </strong>
+        </div>
+
+
             <h1 id="current city">Berlin</h1>
 
 
-        <input type="search" placeholder="Enter the city..." id="city-input" />
-        <input type="submit" value="Search" class="btn btn-primary" />
+        
 
     </form>
 
@@ -58,12 +83,12 @@
                    <div class="weather-mood">
               <ul>
                 <li>
-                    <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/1f4a8.png" alt="wind" id="icon" width="43"> Wind:
+                    <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/1f4a8.png" alt="wind" id="icon" width="20"> Wind:
                     <span id="wind"> 5</span> km/h
 
                 </li>
                 <li>
-                <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/1f4a6.png" alt="humidity" id="icon" width="43"> Humidity: 
+                <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/1f4a6.png" alt="humidity" id="icon" width="20"> Humidity: 
             <span id="humidity"> 88</span> "%"
                     </li>
                  </ul>
@@ -174,6 +199,7 @@
          <small>
          <a href="https://github.com/rulalub/SheCodes-create-web" blank="_blank">open-source
            code</a> by Rula Lubany</small>
+
 
 
      <script src="src/index.js"></script>

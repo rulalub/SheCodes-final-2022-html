@@ -5,9 +5,17 @@ let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${ap
 function displayForecast() {
 let forecastElement= document.querySelector(#forecast);
 
-let forecastHTML= '<div class="row">';
+let days = [" Tue","Wed","Thur","Fri","Sat","Sun"];
+
+let forecastHTML= `<div class="row">`;
+day.forEach(function(day) {
+
+})
+
+
 forecastHTML= 
-forecastHTML + '
+forecastHTML + 
+``
 
 
 
